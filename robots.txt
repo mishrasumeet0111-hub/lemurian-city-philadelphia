@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://philadelphia.lemurianstudios.com/sitemap.xml

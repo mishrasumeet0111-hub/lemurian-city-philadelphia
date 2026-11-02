@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-philadelphia-pa#service",
+      "name": "Website design in Philadelphia, PA",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-philadelphia-pa",
+      "description": "Need a website designer in Philadelphia? Custom websites, branding and 3D animation for businesses across the Philadelphia metro.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Philadelphia, Pennsylvania",
+          "sameAs": "https://www.wikidata.org/wiki/Q1345"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Philadelphia County, Pennsylvania"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Montgomery County, Pennsylvania"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bucks County, Pennsylvania"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "New Castle County, Delaware"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Delaware County, Pennsylvania"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Chester County, Pennsylvania"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Camden County, New Jersey"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Burlington County, New Jersey"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Gloucester County, New Jersey"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Cecil County, Maryland"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Philadelphia businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Pennsylvania",
+          "item": "https://www.lemurianstudios.com/services/web-design-pennsylvania"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Philadelphia, PA",
+          "item": "https://www.lemurianstudios.com/services/website-design-philadelphia-pa"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you work with businesses in South Jersey?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Camden, Burlington and Gloucester County, New Jersey are in the Philadelphia metro, and we work with businesses there the same way as anywhere else."
+          }
+        }
+      ]
+    }
+  ]
+}
